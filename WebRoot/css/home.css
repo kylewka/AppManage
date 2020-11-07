@@ -1,0 +1,161 @@
+.home_top{
+	position:relative;
+	z-index:2;
+	width:100%;
+	height:50px;
+	background: url(../images/home_navBg.png)no-repeat center;
+}
+.home_top_border{
+	width:100%;
+	height:2px;
+	background:#0092ff;
+	position:absolute;
+	left:0;
+	top:48px;
+	z-index:3;
+}
+.home_top>h1{
+	height:100%;
+	line-height:50px;
+	float:left;
+	font-weight: 700;
+    font-style: normal;
+    color: #fff;
+	font-size:24px;
+}
+.home_top>h1>.homeTop_icon{
+	width:32px;
+	height:36px;
+	float:left;
+	margin:6px 10px 0 10px;
+}
+.home_top>h1>.homeTop_tit{
+	width:207px;
+	height:31px;
+	float:left;
+	margin:9px 10px 0 0;
+}
+.homeControl{
+	height:50px;
+	border-left:1px solid #2b3f59;
+}
+.homeControl>span{
+	width:44px;
+	height:44px;
+	border-radius:50%;
+	margin:2px 10px 0 10px;
+	line-height:44px;
+	background:#456e88;
+	color:#fff;
+	text-align:center;
+}
+.homeControl>a{
+	margin:0 10px;
+	cursor: pointer;
+	width:20px;
+	height:100%;
+}
+.homeControl>i{
+	margin:0 10px;
+	cursor: pointer;
+	width:20px;
+	height:100%;
+}
+.homeControl>i.homeSet{
+	background:url(../images/home_setIcon.png) no-repeat center;
+}
+.homeControl>a.homeExit{
+	background:url(../images/home_exitIcon.png) no-repeat center;
+}
+.home_top>ul{
+	height:48px;
+	margin-right:20px;
+}
+.home_top>ul>li{
+	line-height:48px;
+	height:100%;
+	padding:0 15px;
+	float:left;
+	cursor: pointer;
+}
+.home_top>ul>li>i{
+	height:100%;
+	width:16px;
+	margin-right:5px;
+	float:left;
+}
+.home_top>ul>li>i.menuL1_icon1{
+	width:18px;
+}
+.home_top>ul>li>i.menuL1_icon2{
+	width:13px;
+}
+.home_top>ul>li>i.menuL1_icon3{
+	width:14px;
+}
+.home_top>ul>li>i.menuL1_icon4{
+	width:19px;
+}
+.home_top>ul>li>i.menuL1_icon5{
+	width:16px;
+}
+.home_top>ul>li>i.menuL1_icon6{
+	width:16px;
+}
+.home_top>ul>li>i.menuL1_icon1>img{
+	margin-top:-2px;
+}
+
+.home_top>ul>li>i.menuL1_icon4>img{
+	margin-top:-3px;
+}
+.home_top>ul>li>i.menuL1_icon5>img{
+	margin-top:-1px;
+}
+.home_top>ul>li>i.menuL1_icon6>img{
+	margin-top:-1px;
+}
+.home_top>ul>li>span{
+	color:#fff;
+	line-height:48px;
+	float:left;
+}
+.home_top>ul>li:hover{
+	background:url(../images/navActiveBg.png) center left repeat-x;
+}
+.home_top>ul>li.active{
+	background:url(../images/navActiveBg.png) center left repeat-x;
+}
+.loginFoot{
+	border-top:2px solid #B7D6FA;
+	position:absolute;
+    font-weight: 400;
+    color: #95A5A6;
+    line-height: 24px;
+	left:0;
+	bottom:0;
+	width:100%;
+	text-align:center;
+}
+.home_content{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	padding:50px 0 24px 0;
+}
+.home_content>div{
+	width:100%;
+	height:100%;
+}
+
+
+
+
+
+
+
+
+
+
